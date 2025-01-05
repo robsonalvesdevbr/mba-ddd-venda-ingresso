@@ -97,3 +97,13 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+# Compilador TypeScript para JavaScript SWC(Feito em Rust)
+
+```bash
+npm i --save-dev @swc/cli @swc/core
+nest start -b swc
+nest start -b swc -w
+nest start -b swc --type-check
+npm i --save-dev swc-loader
+```
