@@ -107,3 +107,5 @@ nest start -b swc -w
 nest start -b swc --type-check
 npm i --save-dev swc-loader
 ```
+
+- Compilador Rust - [SWC](https://docs.nestjs.com/recipes/swc#cli-plugins-swc)
