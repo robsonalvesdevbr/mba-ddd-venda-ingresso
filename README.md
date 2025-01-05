@@ -102,6 +102,7 @@ Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
 
 ```bash
 npm i --save-dev @swc/cli @swc/core
+npm i --save-dev jest @swc/core @swc/jest
 nest start -b swc
 nest start -b swc -w
 nest start -b swc --type-check
